@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>XML Detail Fetching</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <script type="text/javascript">
+      function fetchDetails() {
+        if (window.XMLHttpRequest) {
+          xmlhttp = new XMLHttpRequest();
+        }
+        xmlhttp.open("GET", "/Exercise8/UserInfo.xml", false);
+        xmlhttp.send();
+        xmlDoc = xmlhttp.responseXML;
+        var x = xmlDoc.getElementsByTagName("PersonDetails");
+        var key_id = document.getElementById("key").value;
+        for (i = 0; i < x.length; i++) {
+          if (
+            key_id.match(
+              x[i].getElementsByTagName("id")[0].childNodes[0].nodeValue
+            )
+          )
+            j = i;
+        }
+        document.write("<h3>User Details are...</h3> <hr> Registeration ID=");
+        document.write(
+          x[j].getElementsByTagName("id")[0].childNodes[0].nodeValue
+        );
+        document.write("</br> Name = ");
+        document.write(
+          x[j].getElementsByTagName("name")[0].childNodes[0].nodeValue
+        );
+        document.write("</br> City = ");
+        document.write(
+          x[j].getElementsByTagName("city")[0].childNodes[0].nodeValue
+        );
+        document.write("</br> Branch = ");
+        document.write(
+          x[j].getElementsByTagName("Branch")[0].childNodes[0].nodeValue
+        );
+        document.write("</br> Year = ");
+        document.write(
+          x[j].getElementsByTagName("Year")[0].childNodes[0].nodeValue
+        );
+        document.write("</br> ");
+      }
+    </script>
+
+    <form name="myform">
+      <h1>ENTER THE REGISTRATION NUMBER</h1>
+      <hr />
+      <input type="text" id="key" /><br /><br />
+      <input type="button" value="Submit" onclick="fetchDetails()" />
+    </form>
+  </body>
+</html>
