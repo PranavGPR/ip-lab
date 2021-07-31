@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<head>
+
+	<title> </title>
+	<script src="credit.js">
+	</script>
+</head>
+
+<body onload="document.pay.cardnumber.focus();">
+	<h3>MAKE PAYMENT</h3><br /><br />
+	<div id=" container" style="border:3px solid; width:400px; padding:25px;">
+		<form name="pay">
+			<label for="cardlabel">Enter your Credit Card Number:</label>
+			<input type="number" name="cardnumber" size="16" /><br /><br />
+			<label for="cvv">Enter CVV:</label>
+			<input type="number" name="cvv" size="3" /><br /><br />
+			<label for="otp">Enter OTP:</label>
+			<input type="text" name="otp" size="8" /><br /><br />
+			<label for="Amount">Enter Amount:</label>
+			<input type="number" name="amount" size="5" /><br /><br />
+			<input type="button" name="payment" value="Payment"
+				onclick="return paymentValidation();" /></button>
+		</form>
+
+	</div>
+	<p id="demo1"></p>
+</body>
+
+</html>

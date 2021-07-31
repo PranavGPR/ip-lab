@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.container {
+    min-width: 900px;
+}
+
+.wrapper {
+    position: relative;
+    overflow: auto;
+}
+
+
+
+.menuitem {
+    width: 165px;
+    float: left;
+    background-color: LawnGreen;
+    color: #ffffff;
+    list-style-type: none;
+    margin: 4px;
+    padding: 2px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.menuitem:nth-child(4) {
+   background-color:#04AA6D;
+}
+
+.menuitem:hover {
+    background-color: ForestGreen;
+}
+
+a {
+    color: #000000;
+}
+
+a:hover {
+    color: #84c754;
+}
+</style>
+</head>
+
+<body style="font: 100% Verdana;margin: 20px;line-height: 26px;background-color: LightGreen">
+
+<div class="container wrapper">
+  <div id="top">
+    <h1>Anna University Trichy</h1>
+    <p>Select different Stylesheets</p>
+  </div>
+  <div class="wrapper">
+   <div id="menubar">
+     <ul id="menulist" style="padding: 0;
+    position: relative;
+    overflow: auto;">
+       <li class="menuitem"  ><a href="Mixed_CSS.html">Mixed Page</a></li>
+       <li class="menuitem" ><a href="External_CSS.html">External CSS</a></li>
+       <li class="menuitem" ><a href="Internal_CSS.html">Internal CSS</a></li>
+       <li class="menuitem" >Inline CSS</li>
+     </ul>
+    </div>
+    <div id="main">
+      <h1 style="color: #4CAF50;">About Us :</h1>
+      <p>
+<ul>
+<li>Anna University Tiruchirappalli otherwise Anna University Chennai – Regional Office, BIT CAMPUS, Tiruchirappalli (AUC-ROT), erstwhile Anna University of Technology, Tiruchirappalli</li>
+<li>It is located on Tiruchirappalli–Pudukkottai National Highway 336, Tamil Nadu, India .</li>
+<li>It was established on 1999 .</li>
+<li>Anna University Tiruchirappalli offers higher education in Engineering, Technology, Management and allied sciences at undergraduate, postgraduate and doctorate level. </li>
+</ul>
+</p>
+       <h2 style="color: #4CAF50;">Picture :</h2>
+      <p>
+          Campus contains 5+ Department Blocks , Hostel and Guest House .
+      </p>
+   </div>
+    <div id="sidebar" style="background-color: ForestGreen;border: 1px solid #d4d4d4;padding-left: 10px;">
+      <h3 style="color: #000000;">Main Block</h3>
+      <p>Campus Main Block Picture</p> 
+    </div>
+  </div>  
+  
+  
+  <div id="bottom" style="text-align: center;
+    padding: 10px;
+    font-size: 70%;
+    line-height: 14px;
+    background-color: LawnGreen">
+     <img src="aut.jpg" "alt=Box Diagram" width="306" height="165">
+  </div>
+</div>
+</body>
+</html>

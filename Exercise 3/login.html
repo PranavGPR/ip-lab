@@ -1,0 +1,35 @@
+<html>
+
+<head>
+	<script>
+		function loginValidation() {
+			const username = document.forms.login.user.value;
+			const password = document.forms.login.password.value;
+
+			document.getElementById("demo").innerHTML = (username == "Tom") && (password == "CatServer") ? "LOGIN SUCCESSFUL" : "LOGIN FAILED";
+		}
+	</script>
+</head>
+
+<body>
+	<h3>LOGIN</h3>
+	<form id="login">
+		<table>
+			<tr>
+				<td>User Name</td>
+				<td><input type="text" name="user" /></td>
+			</tr>
+			<tr>
+				<td>Password</td>
+				<td><input type="password" name="password" /></td>
+			</tr>
+		</table>
+		<input type="button" name="login" value="Login" onclick="loginValidation();" /></button>
+	</form>
+	<p id="demo"></p>
+	<a href="../register">Register</a>
+	<a href="../credit/">Payment by Credit Card</a>
+
+</body>
+
+</html>
