@@ -10,7 +10,7 @@ available in a database which has been stored in a database server.
 3. After installation, go to the installed directory (Default directory will be C:/Program Files/Apache Software Foundation/Tomcat 10.0/) and open the <strong>webapps</strong> folder.
 4. Make a folder (For example: Exercise5) inside the <strong>webapps</strong> folder.
 5. Copy the HTML files provided in this repository and paste it inside the new folder (For example: Exercise5) created by you.
-6. Create a folder named <strong>WEB-INF</strong> (with same spelling) inside the newly created folder (For example: Exercise4) and create two folders inside WEB-INF named <strong>lib</strong>, <strong>classes</strong>.
+6. Create a folder named <strong>WEB-INF</strong> (with same spelling) inside the newly created folder (For example: Exercise5) and create two folders inside WEB-INF named <strong>lib</strong>, <strong>classes</strong>.
 7. Create a file named <strong>web.xml</strong> also inside <strong>WEB-INF</strong> folder.
 8. Paste the contents provided in lib, classes folders and web.xml file into the folder you have created in <strong>webapps</strong> folder (For example: Exercise5).
 9. Open MySQL Workbench and create a connection on localhost and remember the username and password (Default username is root).
