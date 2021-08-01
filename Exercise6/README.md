@@ -1,5 +1,7 @@
 # Exercise 6
 
+<strong>IMPORTANT: COPY THE "SQL FILES" FOLDER TO SOME OTHER DIRECTORY BECAUSE THEY ARE PROVIDED ONLY TO CREATE AND INSERT VALUES IN THE DATABASE TABLES.</strong>
+
 ## Procedure
 
 1. Install Tomcat server into your local machine.
