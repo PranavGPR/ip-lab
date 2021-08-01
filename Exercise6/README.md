@@ -2,8 +2,8 @@
 
 ## Procedure
 
-1. Install Tomcat server into your local machine. [Click here to download it for Windows.]("https://tomcat.apache.org/download-10.cgi#10.0.8")
-2. Install MySQL in your local machine if you don't have it. [Click here to download it.]("https://dev.mysql.com/downloads/mysql/)
+1. Install Tomcat server into your local machine.
+2. Install MySQL in your local machine if you don't have it.
 3. After installation, go to the installed directory (Default directory will be C:/Program Files/Apache Software Foundation/Tomcat 10.0/) and open the <strong>webapps</strong> folder.
 4. Make a folder (For example: ex6) inside the <strong>webapps</strong> folder.
 5. Copy the HTML files provided in this repository and paste it inside the new folder (For example: ex6) created by you.
