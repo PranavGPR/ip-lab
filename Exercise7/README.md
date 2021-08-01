@@ -1,5 +1,7 @@
 # Exercise 7
 
+<strong>IMPORTANT: COPY THE "ex7.sql" FILE TO SOME OTHER DIRECTORY BECAUSE IT IS PROVIDED ONLY TO CREATE AND INSERT VALUES IN THE DATABASE TABLES.</strong>
+
 ## Procedure
 
 1. Install MySQL in your local machine if you don't have it.
