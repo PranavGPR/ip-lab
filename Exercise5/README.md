@@ -20,5 +20,7 @@ available in a database which has been stored in a database server.
 13. Open your preferred browser and go to the url http://localhost:8080/Exercise5/index.html (Here <strong>Exercise5</strong> is the folder name I used as example. You have to replace it with the folder name you used).
 
 <strong>NOTE: For building class files and moving it to WEB-INF/classes folder, you can use the below command:</strong>
-``` shell
-javac *.java && mv *.class WEB-INF/classes
+
+```shell
+javac -cp ./lib/* ./*.java -d ./WEB-INF/classes/
+```

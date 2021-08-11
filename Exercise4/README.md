@@ -17,7 +17,8 @@ ii. Session tracking using hidden form fields and Session tracking for a hit cou
 9. After completing the previous step, go to <strong>Tomcat 10.0/bin</strong> and open <strong>Tomcat10.exe</strong> file to start the server.
 10. Open your preferred browser and go to the url http://localhost:8080/Exercise4/index.html (Here <strong>Exercise4</strong> is the folder name I used as example. You have to replace it with the folder name you used).
 
-
 <strong>NOTE: For building class files and moving it to WEB-INF/classes folder, you can use the below command:</strong>
-``` shell
-javac *.java && mv *.class WEB-INF/classes
+
+```shell
+javac -cp ./lib/* ./*.java -d ./WEB-INF/classes/
+```
